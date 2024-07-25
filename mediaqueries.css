@@ -100,4 +100,11 @@
     .text-container {
       text-align: justify;
     }
+    .project-btn-container {
+        bottom: 10px; /* Adjust if necessary */
+        flex-direction: row;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+  }
   }
