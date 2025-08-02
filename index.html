@@ -95,7 +95,7 @@
          <div class="section-container">
             <div class="section__pic-container">
                <img
-                  src="./assets/Side_pfp.png"
+                  src="./assets/black_white_about.jpg"
                   alt="Profile picture"
                   class="about-pic"
                />
@@ -146,17 +146,14 @@
                </div>
                <div><br /></div>
                <div class="text-container">
-                  - I am currently working with <strong>Qualcomm</strong> to
-                  develop and deploy advanced models for image captioning,
-                  visual question answering, and multimodal sentiment analysis
-                  using cutting-edge vision-language technologies. To ensure
-                  these systems are robust and scalable for large-scale
-                  applications, I optimize their performance by utilizing
-                  high-efficiency frameworks like Ray and TensorRT.
-                  Additionally, I fine-tune these AI models with large-scale
-                  open-source datasets such as the Public Multimodal Dataset and
-                  ImageNet, which helps drive business insights and improve
-                  public surveillance systems.
+                  - I worked as ML/AI Fellow with Qualcomm in partnership with
+                  Break Through Tech Program in Fall 2023. I worked in a team
+                  where we develop and fine-tune a Computer Vision model that
+                  can perform image and object recognition from surveillance
+                  footage. We aim to adopt this technology to detect armed
+                  individuals to support public safety. I was under the
+                  incredible mentorship of Aastha Singh, who is a Camera
+                  Modeling Engineer at Qualcomm.
                </div>
             </div>
          </div>
@@ -382,42 +379,90 @@
                <div class="details-container color-container">
                   <div class="article-container project-photo-container">
                      <img
-                        src="./assets/book_review_AI_pic.png"
+                        src="./assets/No_Image_Available.jpg"
                         alt="Project 1"
                         class="project-img"
                      />
                   </div>
-                  <h2 class="experience-sub-title project-title">Senti-read</h2>
+                  <h2 class="experience-sub-title project-title">
+                     Web Server with Image Hosting
+                  </h2>
                   <ul class="content-wrapper">
                      <li class="section__text__p3">
-                        Final Project for the Cornell Machine Learning Course (associated with Break Through Tech Program)
-                        where I built a model that perform sentiment analysis on
-                        <strong>2000 book reviews</strong> and decide whether
-                        they are positive or negative.
+                        Built a web server using C++ and Boost that can host
+                        images for a website. This was done in a team of 4 and
+                        as the Capstone Project for my major at UCLA.
                      </li>
                      <li class="section__text__p3">
-                        Performed checked for missing values, balances in
-                        positive and negative reviews, and duplicating reviews
-                        using Pandas and Numpy.
-                     </li>
-
-                     <li class="section__text__p3">
-                        Utilized <strong>TF-IDF</strong> to count frequency of
-                        tokens as well as each token's weight in a review
-                        document to then vectorize the tokens and have them
-                        ready for the neural networks.
+                        Implemented a config parser that can parse various HTTP
+                        requests and perform robust format checks and
+                        validations.
                      </li>
 
                      <li class="section__text__p3">
-                        Built a neural network using Keras, which is evaluated
-                        on Keras built-in metrics.
-                        <strong>Achieved 85% accuracy on average. </strong>
+                        Set up Google Cloud Build for CI/CD and server
+                        monitoring, which allows for more streamlined deployment
+                        and development.
                      </li>
                      <li class="section__text__p3">
-                        <strong>Tools used:</strong> Numpy, Pandas, Keras,
-                        Tensorflow, Scikit-learn, Matplotlib, Seaborn
+                        Implemented image upload and deletion via HTTP endpoints
+                        with strict file system validation and fault tolerance.
+                     </li>
+                     <li class="section__text__p3">
+                        Achieved 85%+ unit/integration test coverage and
+                        co-authored detailed API documentation to support
+                        cross-team collaboration.
+                     </li>
+                     <li class="section__text__p3">
+                        <strong>Tech stack:</strong> C++, Boost, OpenSSL,
+                        Docker, googleTest, Google Cloud Build, cmake
                      </li>
                   </ul>
+               </div>
+               <div class="details-container color-container">
+                  <div class="article-container project-photo-container">
+                     <img
+                        src="./assets/smiles-for-speech-header-logo.png"
+                        alt="Project 1"
+                        class="project-img"
+                     />
+                  </div>
+                  <h2 class="experience-sub-title project-title">
+                     Autism Screening App
+                  </h2>
+                  <ul class="content-wrapper">
+                     <li class="section__text__p3">
+                        Built a website in 36 hours with 2 developers for the
+                        <strong
+                           >non-profit organization Smiles for Speech</strong
+                        >
+                        using React and Firebase, supporting early autism
+                        screening in underserved Ghanaian communities. Placed
+                        2nd overall.
+                     </li>
+                     <li class="section__text__p3">
+                        Implemented Autism severity tracking, personalized
+                        recommendations, and PDF export of results.
+                     </li>
+
+                     <li class="section__text__p3">
+                        Built an Admin page allowing the organization to monitor
+                        trends, identify common symptoms, and analyze data at
+                        the profile level.
+                     </li>
+                     <li class="section__text__p3">
+                        <strong>Tech stack:</strong> React + Vite, Firebase,
+                        CSS, Recharts, jdPDF
+                     </li>
+                  </ul>
+                  <div class="btn-container project-btn-container">
+                     <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="window.open('https://github.com/AzineZ/hack2impact2025')"
+                     >
+                        Github
+                     </button>
+                  </div>
                </div>
                <div class="details-container color-container">
                   <div class="article-container project-photo-container">
@@ -469,6 +514,12 @@
                      </button>
                   </div>
                </div>
+            </div>
+         </div>
+         <div
+            class="experience-details-container project-card-placement-container"
+         >
+            <div class="about-containers">
                <div class="details-container color-container">
                   <div class="article-container project-photo-container">
                      <img
@@ -529,9 +580,7 @@
                      </button>
                   </div>
                </div>
-            </div>
-            <div class="about-containers">
-               <div class="details-container color-container single-project-container">
+               <div class="details-container color-container">
                   <div class="article-container project-photo-container">
                      <img
                         src="./assets/project-3-pic.jpg"
